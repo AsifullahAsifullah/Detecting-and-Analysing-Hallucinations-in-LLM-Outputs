@@ -1,0 +1,30 @@
+{
+  "arch": "deberta",
+  "model_name": "microsoft/deberta-v3-base",
+  "training": {
+    "model_name": "deberta",
+    "history": {
+      "train_loss": [
+        0.6209
+      ],
+      "val_loss": [
+        0.7316
+      ],
+      "train_f1": [
+        0.8
+      ],
+      "val_f1": [
+        0.6667
+      ]
+    },
+    "best_epoch": 1,
+    "best_val_loss": 0.7316160202026367,
+    "best_val_f1": 0.6667
+  },
+  "test_metrics": {
+    "accuracy": 0.5,
+    "f1": 0.6667,
+    "roc_auc": 0.0
+  },
+  "test_loss": 0.7328
+}

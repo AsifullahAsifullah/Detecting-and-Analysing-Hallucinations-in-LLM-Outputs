@@ -1,0 +1,46 @@
+{
+  "arch": "roberta",
+  "model_name": "roberta-base",
+  "training": {
+    "model_name": "roberta",
+    "history": {
+      "train_loss": [
+        0.7792,
+        0.715,
+        0.6589,
+        0.6698,
+        0.6285
+      ],
+      "val_loss": [
+        0.6906,
+        0.6751,
+        0.6476,
+        0.6245,
+        0.6234
+      ],
+      "train_f1": [
+        0.0606,
+        0.1081,
+        0.3077,
+        0.4651,
+        0.5
+      ],
+      "val_f1": [
+        0.0,
+        0.0,
+        0.3636,
+        0.875,
+        0.8
+      ]
+    },
+    "best_epoch": 5,
+    "best_val_loss": 0.6234153211116791,
+    "best_val_f1": 0.8
+  },
+  "test_metrics": {
+    "accuracy": 0.55,
+    "f1": 0.3077,
+    "roc_auc": 0.6263
+  },
+  "test_loss": 0.7035
+}
