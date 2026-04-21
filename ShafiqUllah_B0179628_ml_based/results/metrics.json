@@ -1,0 +1,14 @@
+{
+  "total_samples": 4000,
+  "accuracy": 0.9785,
+  "precision": 0.9795,
+  "recall": 0.9775,
+  "f1_score": 0.9785,
+  "roc_auc": 0.9956,
+  "avg_inference_ms": 59.62,
+  "total_time_s": 238.49,
+  "TP": 1955,
+  "TN": 1959,
+  "FP": 41,
+  "FN": 45
+}
