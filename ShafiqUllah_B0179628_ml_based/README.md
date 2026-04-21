@@ -1,25 +1,14 @@
-# Student 2 — ML-Based Hallucination Detector
+# ShafiqUllah_B01796286 — ML-Based Hallucination Detector
 
 **MSc Project: Detecting and Analysing Hallucinations in Large Language Model Outputs**  
 University of the West of Scotland — School of Computing, Engineering and Physical Sciences
 
----
 
-## Overview
-
-This is the **individual contribution** of Student 2 to the group's comparative hallucination
-detection study. It implements a classical machine learning-based hallucination detector using
-rich feature engineering across four complementary signal families.
-
-The system is designed to be **directly comparable** with Student 1's rule-based approach —
-using the same datasets, evaluation metrics, and output format.
-
----
 
 ## Project Structure
 
 ```
-student2_ml_based/
+ShafiqUllah_B01796286_ml_based/
 ├── src/
 │   ├── main.py                  # Demo runner (quick test of predictions)
 │   ├── train.py                 # Full training pipeline
@@ -40,7 +29,7 @@ student2_ml_based/
 ├── data/
 │   ├── raw/                     # Raw datasets (TruthfulQA, HaluEval, FEVER)
 │   └── processed/
-│       └── combined_dataset.json    # Shared with Student 1
+│       └── combined_dataset.json    # Shared with others
 ├── models/                      # Saved trained models
 ├── results/                     # Evaluation outputs
 ├── tests/
@@ -137,7 +126,7 @@ Best model is selected by validation F1-score and saved to `models/best_model.pk
 
 ## Results (Test Set — 4,000 samples)
 
-| Metric | Student 2 (XGBoost) | Student 1 (Rule-based) |
+| Metric | XGBoost | Rule-based |
 |--------|---------------------|------------------------|
 | Accuracy | **0.9785** | 0.8659 |
 | Precision | **0.9795** | 0.9263 |
@@ -146,12 +135,11 @@ Best model is selected by validation F1-score and saved to `models/best_model.pk
 | ROC-AUC | **0.9956** | 0.8836 |
 | Avg inference (ms) | 59.6 | 19.8 |
 
-Student 2's ML approach outperforms Student 1's rule-based system on all accuracy metrics,
+ML approach outperforms rule-based system on all accuracy metrics,
 at the cost of higher inference time and requiring an offline training phase.
 
 ## Evaluation Metrics
 
-Consistent with Student 1 and the group's shared protocol:
 
 - Accuracy, Precision, Recall, F1-score
 - ROC-AUC
@@ -163,7 +151,6 @@ Consistent with Student 1 and the group's shared protocol:
 
 ## Datasets
 
-Shared with Student 1:
 
 | Dataset | Type | Samples |
 |---------|------|---------|
@@ -174,29 +161,7 @@ Shared with Student 1:
 Combined balanced dataset: `data/processed/combined_dataset.json`  
 (10,000 factual + 10,000 hallucinated = 20,000 total)
 
----
 
-## Comparing with Student 1
-
-Both pipelines expose identical interfaces:
-
-<!-- ```python
-# Student 1 (Rule-based)
-from pipeline import RuleBasedHallucinationPipeline
-s1 = RuleBasedHallucinationPipeline()
-result = s1.predict(answer="...", question="...", knowledge="...")
-
-# Student 2 (ML-based)
-from pipeline import MLHallucinationPipeline
-s2 = MLHallucinationPipeline.load("models/best_model.pkl", "models/feature_pipeline.pkl")
-result = s2.predict(answer="...", question="...", knowledge="...") -->
-
-# Both return:
-# result["final_result"]["label"]       → 0 or 1
-# result["final_result"]["final_score"] → probability [0,1]
-```
-
----
 
 ## References
 
