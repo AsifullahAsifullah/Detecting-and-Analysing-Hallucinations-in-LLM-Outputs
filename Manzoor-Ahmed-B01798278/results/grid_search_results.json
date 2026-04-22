@@ -1,0 +1,127 @@
+{
+  "best_weights": {
+    "temporal": 0.1,
+    "entity": 0.1,
+    "contradiction": 0.05,
+    "numerical": 0.35,
+    "citation": 0.4
+  },
+  "best_threshold": 0.05,
+  "best_score": 1.0,
+  "optimize_for": "f1",
+  "n_samples": 15,
+  "n_combinations": 2226,
+  "elapsed_s": 71.04,
+  "top_results": [
+    {
+      "weights": {
+        "temporal": 0.1,
+        "entity": 0.1,
+        "contradiction": 0.05,
+        "numerical": 0.35,
+        "citation": 0.4
+      },
+      "threshold": 0.05,
+      "score": 1.0
+    },
+    {
+      "weights": {
+        "temporal": 0.1,
+        "entity": 0.1,
+        "contradiction": 0.05,
+        "numerical": 0.4,
+        "citation": 0.35
+      },
+      "threshold": 0.05,
+      "score": 1.0
+    },
+    {
+      "weights": {
+        "temporal": 0.1,
+        "entity": 0.1,
+        "contradiction": 0.1,
+        "numerical": 0.3,
+        "citation": 0.4
+      },
+      "threshold": 0.05,
+      "score": 1.0
+    },
+    {
+      "weights": {
+        "temporal": 0.1,
+        "entity": 0.1,
+        "contradiction": 0.1,
+        "numerical": 0.35,
+        "citation": 0.35
+      },
+      "threshold": 0.05,
+      "score": 1.0
+    },
+    {
+      "weights": {
+        "temporal": 0.1,
+        "entity": 0.1,
+        "contradiction": 0.1,
+        "numerical": 0.4,
+        "citation": 0.3
+      },
+      "threshold": 0.05,
+      "score": 1.0
+    },
+    {
+      "weights": {
+        "temporal": 0.1,
+        "entity": 0.1,
+        "contradiction": 0.15,
+        "numerical": 0.25,
+        "citation": 0.4
+      },
+      "threshold": 0.05,
+      "score": 1.0
+    },
+    {
+      "weights": {
+        "temporal": 0.1,
+        "entity": 0.1,
+        "contradiction": 0.15,
+        "numerical": 0.3,
+        "citation": 0.35
+      },
+      "threshold": 0.05,
+      "score": 1.0
+    },
+    {
+      "weights": {
+        "temporal": 0.1,
+        "entity": 0.1,
+        "contradiction": 0.15,
+        "numerical": 0.35,
+        "citation": 0.3
+      },
+      "threshold": 0.05,
+      "score": 1.0
+    },
+    {
+      "weights": {
+        "temporal": 0.1,
+        "entity": 0.1,
+        "contradiction": 0.15,
+        "numerical": 0.4,
+        "citation": 0.25
+      },
+      "threshold": 0.05,
+      "score": 1.0
+    },
+    {
+      "weights": {
+        "temporal": 0.1,
+        "entity": 0.1,
+        "contradiction": 0.2,
+        "numerical": 0.2,
+        "citation": 0.4
+      },
+      "threshold": 0.05,
+      "score": 1.0
+    }
+  ]
+}

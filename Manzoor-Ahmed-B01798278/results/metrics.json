@@ -1,0 +1,28 @@
+{
+  "total_samples": 20000,
+  "accuracy": 0.8659,
+  "precision": 0.9263,
+  "recall": 0.7951,
+  "f1_score": 0.8557,
+  "roc_auc": 0.8836,
+  "avg_inference_ms": 20.07,
+  "total_time_s": 401.59,
+  "TP": 7951,
+  "TN": 9367,
+  "FP": 633,
+  "FN": 2049,
+  "per_source": {
+    "HaluEval": {
+      "TP": 7951,
+      "TN": 8660,
+      "FP": 601,
+      "FN": 2049
+    },
+    "TruthfulQA": {
+      "TP": 0,
+      "TN": 707,
+      "FP": 32,
+      "FN": 0
+    }
+  }
+}

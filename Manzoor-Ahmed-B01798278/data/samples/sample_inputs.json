@@ -1,0 +1,17 @@
+[
+  {"id": "sample_1",  "source": "manual", "task_type": "claim", "text": "The capital of Germany is Madrid.",               "label": 1, "hallucination_type": "entity"},
+  {"id": "sample_2",  "source": "manual", "task_type": "claim", "text": "He died in 1991 and published the book in 1998.", "label": 1, "hallucination_type": "temporal"},
+  {"id": "sample_3",  "source": "manual", "task_type": "claim", "text": "The meeting happened. The meeting never happened.", "label": 1, "hallucination_type": "contradiction"},
+  {"id": "sample_4",  "source": "manual", "task_type": "claim", "text": "A human is 250 years old and weighs 5000 kg.",    "label": 1, "hallucination_type": "numerical"},
+  {"id": "sample_5",  "source": "manual", "task_type": "citation", "text": "This is supported by DOI ABC-123 and arXiv:wrong-id.", "label": 1, "hallucination_type": "citation"},
+  {"id": "sample_6",  "source": "manual", "task_type": "claim", "text": "The capital of Pakistan is Islamabad.",           "label": 0, "hallucination_type": "none"},
+  {"id": "sample_7",  "source": "manual", "task_type": "claim", "text": "Napoleon used the internet in 1804.",             "label": 1, "hallucination_type": "temporal"},
+  {"id": "sample_8",  "source": "manual", "task_type": "claim", "text": "Julius Caesar tweeted about his campaigns in 50 BC.", "label": 1, "hallucination_type": "temporal"},
+  {"id": "sample_9",  "source": "manual", "task_type": "claim", "text": "Albert Einstein was a professional footballer.",  "label": 1, "hallucination_type": "entity"},
+  {"id": "sample_10", "source": "manual", "task_type": "claim", "text": "Water boils at 100 degrees Celsius.",             "label": 0, "hallucination_type": "none"},
+  {"id": "sample_11", "source": "manual", "task_type": "claim", "text": "Shakespeare wrote Hamlet using his laptop in 1601.", "label": 1, "hallucination_type": "temporal"},
+  {"id": "sample_12", "source": "manual", "task_type": "claim", "text": "Python was created by Guido van Rossum in 1991.", "label": 0, "hallucination_type": "none"},
+  {"id": "sample_13", "source": "manual", "task_type": "claim", "text": "She always succeeds. She never succeeds.",        "label": 1, "hallucination_type": "contradiction"},
+  {"id": "sample_14", "source": "manual", "task_type": "citation", "text": "The result was confirmed in arXiv:2310.12345.", "label": 0, "hallucination_type": "none"},
+  {"id": "sample_15", "source": "manual", "task_type": "claim", "text": "The population is 500 billion according to et al. (2023).", "label": 1, "hallucination_type": "numerical"}
+]
